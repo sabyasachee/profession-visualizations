@@ -11,18 +11,18 @@ var svg = d3.select("#plot").append("svg").attr("width", total_width).attr("heig
 
 var x = d3.scaleLinear().domain([1948, 2020]).range([0, width]);
 var xAxis = d3.axisBottom(x).tickFormat(d3.format("d"));
-svg.append("g").attr("transform", "translate(0," + height + ")").attr("class", "xaxis").call(xAxis)
+svg.append("g").style("font", "20px times").attr("transform", "translate(0," + height + ")").attr("class", "xaxis").call(xAxis)
 
 var y = d3.scaleLinear().range([height, 0]);
-var yAxis = d3.axisLeft().scale(y);
-svg.append("g").attr("class", "yaxis")
+var yAxis = d3.axisLeft().scale(y).tickFormat(d3.format(".0e"));
+svg.append("g").style("font", "20px times").attr("class", "yaxis")
 
-var cur_title = "3", cur_measure = "per_word";
+var cur_title = "accountant", cur_measure = "per_word";
 
 var focus = svg.append("g").append("circle").style("fill", "black").attr("stroke", "black").attr("r", 4).style("opacity", 0);
 
-d3.csv("data/noccur_per_word.csv", function(freq1) { 
-d3.csv("data/noccur_per_movie.csv", function(freq2) {
+d3.csv("data/noccur_per_word_short.csv", function(freq1) { 
+d3.csv("data/noccur_per_movie_short.csv", function(freq2) {
 d3.csv("data/noccur_per_word_coeff.csv", function(coeff1) {
 d3.csv("data/noccur_per_movie_coeff.csv", function(coeff2) {
 
@@ -57,7 +57,7 @@ d3.csv("data/noccur_per_movie_coeff.csv", function(coeff2) {
     var line = svg.append("g").append("path").datum(freq1)
     .attr(
         "d", d3.line()
-        .x(function(d) {return x(d.year)})
+        .x(function(d) {return x(+d.year)})
         .y(function(d) {return y(+d[cur_title])})
         .curve(d3.curveBasis)
     )
@@ -75,6 +75,15 @@ d3.csv("data/noccur_per_movie_coeff.csv", function(coeff2) {
 
     var yearText = svg.append("g").append("text").style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle").attr("font-size", 20);
     var measureText = svg.append("g").append("text").style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle").attr("font-size", 20);
+
+    document.getElementsByClassName("equation")[0].innerHTML = "y = " + Number.parseFloat(+row.slope).toExponential(2).toString() + " x + " + Number.parseFloat(+row.intercept).toExponential(2).toString();
+    document.getElementsByClassName("equation")[0].innerHTML += "<br>"
+    document.getElementsByClassName("equation")[0].innerHTML += "corr = " + Number.parseFloat(+row.corr).toExponential(2).toString() + ", p = " + Number.parseFloat(+row.p).toExponential(2).toString()
+    if (+row.p < 0.05) {
+        document.getElementsByClassName("equation")[0].innerHTML += " (Significant)"
+    } else {
+        document.getElementsByClassName("equation")[0].innerHTML += " (Not Significant)"
+    }
 
     function update_plot(title, measure) {
         if (measure == "per_word") {
@@ -95,7 +104,7 @@ d3.csv("data/noccur_per_movie_coeff.csv", function(coeff2) {
         .duration(2000)
         .attr(
             "d", d3.line()
-            .x(function(d) {return x(d.year)})
+            .x(function(d) {return x(+d.year)})
             .y(function(d) {return y(+d[title])})
             .curve(d3.curveBasis)
         )
@@ -111,6 +120,15 @@ d3.csv("data/noccur_per_movie_coeff.csv", function(coeff2) {
         .transition().duration(2000)
         .attr("x1", x(1950)).attr("x2", x(2017)).attr("y1", y(y1)).attr("y2", y(y2))
         .style("stroke", colors(title)).style("stroke-width", 6).style("stroke-dasharray", ("5, 10"));
+
+        document.getElementsByClassName("equation")[0].innerHTML = "y = " + Number.parseFloat(+row.slope).toExponential(2).toString() + " x + " + Number.parseFloat(+row.intercept).toExponential(2).toString();
+        document.getElementsByClassName("equation")[0].innerHTML += "<br>"
+        document.getElementsByClassName("equation")[0].innerHTML += "corr = " + Number.parseFloat(+row.corr).toExponential(2).toString() + ", p = " + Number.parseFloat(+row.p).toExponential(2).toString()
+        if (+row.p < 0.05) {
+            document.getElementsByClassName("equation")[0].innerHTML += " (Significant)"
+        } else {
+            document.getElementsByClassName("equation")[0].innerHTML += " (Not Significant)"
+        }
     }
 
     function mouseover() {

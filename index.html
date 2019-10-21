@@ -6,14 +6,25 @@
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <link rel="shortcut icon" href="#">
+    <style>
+        .equation {
+			font-size: 20px;
+			margin-top: 10px;
+			text-align: center;
+		}
+    </style>
 </head>
 <body>
+    <p>
+        <a href="taxonomy.html">taxonomy</a>
+    </p>
     <select id="select_title"></select>
     <select id="select_measure">
         <option value="instr" disabled>--Please select a measure---</option>
         <option value="per_word">Number of occurrences per word</option>
         <option value="per_movie">Number of occurrences per movie</option>
     </select>
+    <div class="equation"></div>
     <div id="plot"></div>
     <script src="frequency.js"></script>
 </body>
