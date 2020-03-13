@@ -6,9 +6,9 @@ const senti_plot_colors = {"neu":"#e66c74", "pos":"#377eb8", "neg":"#4daf4a"};
 var senti_plot_stack;
 
 function initialize_sentiment_plot(title) {
-    const total_width = 1000
+    const total_width = 1130
     const total_height = 350
-    const margin = {left: 50, top: 20, right: 80, bottom: 30}
+    const margin = {left: 50, top: 50, right: 200, bottom: 30}
 
     var width = total_width - margin.left - margin.right
     var height = total_height - margin.top - margin.bottom
@@ -19,6 +19,12 @@ function initialize_sentiment_plot(title) {
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+    senti_plot_svg.append("g").append("text").style("opacity", 1).attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("font-size", 20).attr("x", width/3).attr("y", -15).html("Sentiment vs Time (red=neutral, blue=pos, green=neg)");
+
+    senti_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","senti_pos_pho").attr("font-size", 15).attr("x", width + 10).attr("y", height/2 - 20);
+
+    senti_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","senti_neg_pho").attr("font-size", 15).attr("x", width + 10).attr("y", height/2);
 
     senti_plot_x = d3.scaleLinear().domain([1948, 2018]).range([0, width]);
     var xAxis = d3.axisBottom(senti_plot_x).tickFormat(d3.format("d"));
@@ -45,6 +51,26 @@ function initialize_sentiment_plot(title) {
 function update_sentiment_plot(title) {
 
     d3.csv("data/sentiment/" + title + ".csv", function(data) {
+        if (stat_data[title]["pos"] > 0) {
+            d3.select("#senti_pos_pho").html("pos sentiment vs time &rho; = " + stat_data[title]["pos"].toFixed(2)).style("fill", "green");
+        }
+        else if (stat_data[title]["pos"] < 0) {
+            d3.select("#senti_pos_pho").html("pos sentiment vs time &rho; = " + stat_data[title]["pos"].toFixed(2)).style("fill", "red");
+        }
+        else {
+            d3.select("#senti_pos_pho").html("");
+        }
+
+        if (stat_data[title]["neg"] > 0) {
+            d3.select("#senti_neg_pho").html("neg sentiment vs time &rho; = " + stat_data[title]["neg"].toFixed(2)).style("fill", "green");
+        }
+        else if (stat_data[title]["neg"] < 0) {
+            d3.select("#senti_neg_pho").html("neg sentiment vs time &rho; = " + stat_data[title]["neg"].toFixed(2)).style("fill", "red");
+        }
+        else {
+            d3.select("#senti_neg_pho").html("");
+        }
+
         var stackedData = d3.stack().keys(senti_groups)(data);
 
         var state = d3.select("#senti_plot").selectAll("g").data(stackedData);

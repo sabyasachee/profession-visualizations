@@ -3,15 +3,20 @@ var titles;
 var title_to_color = {};
 var freq_data;
 var emp_data;
-var senti_groups = ["neu","pos","neg"];
+var stat_data;
+var truncated_freq_data;
+var senti_groups = ["pos","neu","neg"];
 var cur_title = "accountant";
 
 function initialization() {
 
+    d3.json("data/stats.json", function(sdata) {
     d3.csv("data/employment.csv", function(edata) {
     d3.csv("data/frequency.csv", function(fdata) {
         freq_data = fdata;
         emp_data = edata;
+        stat_data = sdata;
+        truncated_freq_data = fdata.slice(51);
 
         titles = fdata.columns.slice(1);
         var colors = d3.scaleOrdinal().domain(titles).range(d3.schemeSet2);
@@ -39,7 +44,7 @@ function initialization() {
 
         initialize_sentiment_plot(cur_title);
     })
-})
+})})
 }
 
 window.initialization();
