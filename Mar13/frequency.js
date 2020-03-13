@@ -1,147 +1,97 @@
-function initialization() {
+// frequency plot variables
+var freq_plot_x;
+var freq_plot_y;
+var freq_plot_svg;
+var freq_plot_line;
+var freq_plot_width;
 
-    var colors;
+function initialize_frequency_plot() {
 
-    d3.csv("data/frequency.csv", function(freq_data) {
+    const total_width = 700
+    const total_height = 350
+    const margin = {left: 50, top: 20, right: 80, bottom: 30}
 
-        var titles = freq_data.columns.slice(1);
-        colors = d3.scaleOrdinal().domain(titles).range(d3.schemeSet2);
+    var width = total_width - margin.left - margin.right;
+    var height = total_height - margin.top - margin.bottom;
+    freq_plot_width = width;
 
-        d3.select("#select_title").selectAll("option").data(titles).enter().append("option")
-        .text(function (d) {return d})
-        .attr("value", function (d) {return d});
-
-        d3.select("#select_title").on("change", function (d) {
-            var selected_title = d3.select(this).property("value");
-            update_plots(selected_title);
-        });
-
-    })
-
-    return colors;
-
-}
-
-function update_plots(selected_title) {
-    console.log(selected_title);
-}
-
-function frequency() {
-
-    const total_width = 800
-    const total_height = 400
-
-    var margin = {left: 50, top: 20, right: 80, bottom: 30}
-
-    var width = total_width - margin.left - margin.right
-    var height = total_height - margin.top - margin.bottom
-
-    var svg = d3.select("#frequency").append("svg").attr("width", total_width).attr("height", total_height)
+    freq_plot_svg = d3.select("#plot").append("svg").attr("width", total_width).attr("height", total_height)
     .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var x = d3.scaleLinear().domain([1948, 2018]).range([0, width]);
-    var xAxis = d3.axisBottom(x).tickFormat(d3.format("d"));
-    svg.append("g").style("font", "15px times").attr("transform", "translate(0," + height + ")").attr("class", "xaxis").call(xAxis)
+    freq_plot_x = d3.scaleLinear().domain([1948, 2018]).range([0, width]);
+    var xAxis = d3.axisBottom(freq_plot_x).tickFormat(d3.format("d"));
+    freq_plot_svg.append("g").style("font", "15px times").attr("transform", "translate(0," + height + ")").attr("class", "xaxis").call(xAxis);
 
-    var y = d3.scaleLinear().range([height, 0]);
-    var yAxis = d3.axisLeft().scale(y).tickFormat(d3.format(".0e"));
-    svg.append("g").style("font", "15px times").attr("class", "yaxis")
+    freq_plot_y = d3.scaleLinear().range([height, 0]);
+    freq_plot_svg.append("g").style("font", "15px times").attr("class", "yaxis");
 
-    var cur_title = "p1";
+    freq_plot_svg.append("rect").style("fill", "none").style("pointer-events", "all").attr("width", width).attr("height", height)
+    .on("mouseover", freq_mouseover).on("mousemove", freq_mousemove).on("mouseout", freq_mouseout).attr("id","freq_rect");
 
-    var focus = svg.append("g").append("circle").style("fill", "black").attr("stroke", "black").attr("r", 2).style("opacity", 0);
+    freq_plot_line = freq_plot_svg.append("g").append("path").attr("id","freq_line");
 
-    d3.csv("data/frequency.csv", function(freq_data) {
+    freq_plot_svg.append("g").append("circle").style("fill", "black").attr("stroke", "black").attr("r", 2).style("opacity", 0).attr("id","freq_focus");
 
-        var titles = freq_data.columns.slice(1);
-        var colors = d3.scaleOrdinal().domain(titles).range(d3.schemeSet2);
+    freq_plot_svg.append("g").append("text").style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle").attr("font-size", 15).attr("id","freq_year");
 
-        d3.select("#select_title").selectAll("option").data(titles).enter().append("option").text(function (d) {return d}).attr("value", function (d) {return d});
-
-        svg.append("rect").style("fill", "none").style("pointer-events", "all").attr("width", width).attr("height", height)
-        .on("mouseover", mouseover).on("mousemove", mousemove).on("mouseout", mouseout);
-
-        var bisect = d3.bisector(function (d) { return d.year; }).left;
-
-        d3.select("#select_title").on("change", function (d) {
-            var selected_title = d3.select(this).property("value");
-            cur_title = selected_title;
-            update_plot(cur_title);
-        });
-
-        var max_yvalue = d3.max(freq_data, function(d) {return +d[cur_title]});
-        var min_yvalue = d3.min(freq_data, function(d) {return +d[cur_title]});
-
-        y.domain([min_yvalue, max_yvalue]);
-        svg.selectAll(".yaxis").call(yAxis);
-
-        var line = svg.append("g").append("path").datum(freq_data)
-        .attr(
-            "d", d3.line()
-            .x(function(d) {return x(+d.year)})
-            .y(function(d) {return y(+d[cur_title])})
-            .curve(d3.curveBasis)
-        )
-        .attr("stroke", colors(cur_title))
-        .style("stroke-width", 3)
-        .style("fill", "none");
-
-        var row_index = freq_data.findIndex(function (row) {return row.title == cur_title});
-        var row = freq_data[row_index];
-        
-        var yearText = svg.append("g").append("text").style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle").attr("font-size", 15);
-        var measureText = svg.append("g").append("text").style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle").attr("font-size", 15);
-
-        function update_plot(title) {
-
-            var max_yvalue = d3.max(freq_data, function(d) {return +d[title]});
-            var min_yvalue = d3.min(freq_data, function(d) {return +d[title]});
-            y.domain([min_yvalue, max_yvalue]);
-            svg.selectAll(".yaxis").transition().duration(2000).call(yAxis);
-
-            line.datum(freq_data)
-            .transition()
-            .duration(2000)
-            .attr(
-                "d", d3.line()
-                .x(function(d) {return x(+d.year)})
-                .y(function(d) {return y(+d[title])})
-                .curve(d3.curveBasis)
-            )
-            .attr("stroke", colors(title))
-            .style("stroke-width", 3)
-            .style("fill", "none");
-
-            
-        }
-
-        function mouseover() {
-            // focus.style("opacity", 1);
-            yearText.style("opacity", 1);
-            measureText.style("opacity", 1);
-        }
-
-        function mouseout() {
-            // focus.style("opacity", 0);
-            yearText.style("opacity", 0);
-            measureText.style("opacity", 0);
-        }
-
-        function mousemove() {
-            var x0 = x.invert(d3.mouse(this)[0]);
-            var i = bisect(freq_data, x0, 1)
-            row = freq_data[i]
-            measure_text = "freq"
-            // focus.attr("cx", x(row.year)).attr("cy", y(+row[cur_title]));
-            yearText.attr("x", x(row.year)).attr("y", y(+row[cur_title]) + 5).html("year : " + row.year);
-            var measure_score = Number.parseFloat(+row[cur_title]).toExponential(2)
-            measureText.attr("x", x(row.year)).attr("y", y(+row[cur_title]) + 25).html(measure_text + " : " + measure_score);
-        }
-
-    })
+    freq_plot_svg.append("g").append("text").style("opacity", 0).attr("text-anchor", "left").attr("alignment-baseline", "middle").attr("font-size", 15).attr("id","freq_measure");
 
 }
 
-// window.frequency();
-colors = window.initialization();
-console.log(colors);
+function freq_mouseover() {
+    d3.select("#freq_focus").style("opacity", 1);
+    d3.select("#freq_year").style("opacity", 1);
+    d3.select("#freq_measure").style("opacity", 1);
+}
+
+function freq_mouseout() {
+    d3.select("#freq_focus").style("opacity", 0);
+    d3.select("#freq_year").style("opacity", 0);
+    d3.select("#freq_measure").style("opacity", 0);
+}
+
+function freq_mousemove() {
+    var x  = d3.mouse(this)[0]
+    var x0 = freq_plot_x.invert(x);
+    var bisect = d3.bisector(function (d) { return d.year; }).left;
+    var i = bisect(freq_data, x0, 1);
+
+    var row = freq_data[i]
+    var measure_text = "freq"
+
+    line = document.getElementById("freq_line");
+    var totlength = line.getTotalLength();
+    var point = line.getPointAtLength((totlength*x)/freq_plot_width);
+    var y = freq_plot_y.invert(point.y);
+
+    // d3.select("#freq_focus").attr("cx", freq_plot_x(row.year)).attr("cy", freq_plot_y(+row[cur_title]));
+    d3.select("#freq_focus").attr("cx", freq_plot_x(row.year)).attr("cy", freq_plot_y(y));
+    d3.select("#freq_year").attr("x", freq_plot_x(row.year)).attr("y", freq_plot_y(+row[cur_title]) + 5).html("year : " + row.year);
+    
+    var measure_score = Number.parseFloat(+row[cur_title]).toExponential(2)
+    d3.select("#freq_measure").attr("x", freq_plot_x(row.year)).attr("y", freq_plot_y(+row[cur_title]) + 25).html(measure_text + " : " + measure_score);
+}
+
+function update_frequency_plot(title) {
+
+    var max_yvalue = d3.max(freq_data, function(d) {return +d[title]});
+    var min_yvalue = d3.min(freq_data, function(d) {return +d[title]});
+
+    freq_plot_y.domain([min_yvalue, max_yvalue]);
+    var yAxis = d3.axisLeft().scale(freq_plot_y).tickFormat(d3.format(".0e"));
+    freq_plot_svg.selectAll(".yaxis").transition().duration(1000).call(yAxis);
+
+    freq_plot_line.datum(freq_data)
+    .transition()
+    .duration(1000)
+    .attr(
+        "d", d3.line()
+        .x(function(d) {return freq_plot_x(+d.year)})
+        .y(function(d) {return freq_plot_y(+d[title])})
+        .curve(d3.curveBasis)
+    )
+    .attr("stroke", title_to_color[title])
+    .style("stroke-width", 3)
+    .style("fill", "none");
+    
+}
