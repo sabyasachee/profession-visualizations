@@ -9,7 +9,7 @@ var emp_plot_line;
 function initialize_employment_plot() {
     const total_width = 700
     const total_height = 350
-    const margin = {left: 60, top: 60, right: 80, bottom: 30}
+    const margin = {left: 60, top: 50, right: 60, bottom: 50}
 
     var width = total_width - margin.left - margin.right
     var height = total_height - margin.top - margin.bottom
@@ -17,9 +17,9 @@ function initialize_employment_plot() {
     emp_plot_svg = d3.select("#plot").append("svg").attr("width", total_width).attr("height", total_height)
     .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    emp_plot_svg.append("g").append("text").style("opacity", 1).attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("font-size", 20).attr("x", width/3).attr("y", 0).html("Frequency and Employment vs Time");
+    emp_plot_svg.append("g").append("text").style("opacity", 1).attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("font-size", 20).attr("x", 100).attr("y", -20).html("Frequency and Employment vs Time");
 
-    emp_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","emp_pho").attr("font-size", 15).attr("x", width/3).attr("y", 20);
+    emp_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","emp_pho").attr("font-size", 15).attr("x", 200).attr("y", 0);
 
     emp_plot_x = d3.scaleLinear().domain([1999, 2018]).range([0, width]);
     var xAxis = d3.axisBottom(emp_plot_x).tickFormat(d3.format("d"));

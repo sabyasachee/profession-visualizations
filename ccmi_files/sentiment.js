@@ -6,9 +6,9 @@ const senti_plot_colors = {"neu":"#e66c74", "pos":"#377eb8", "neg":"#4daf4a"};
 var senti_plot_stack;
 
 function initialize_sentiment_plot(title) {
-    const total_width = 1130
-    const total_height = 350
-    const margin = {left: 50, top: 50, right: 200, bottom: 30}
+    const total_width = 750
+    const total_height = 400
+    const margin = {left: 60, top: 50, right: 60, bottom: 100}
 
     var width = total_width - margin.left - margin.right
     var height = total_height - margin.top - margin.bottom
@@ -20,11 +20,11 @@ function initialize_sentiment_plot(title) {
     .append("g")
     .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-    senti_plot_svg.append("g").append("text").style("opacity", 1).attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("font-size", 20).attr("x", width/6).attr("y", -15).html("Sentiment vs Time (red=neutral, blue=pos, green=neg)");
+    senti_plot_svg.append("g").append("text").style("opacity", 1).attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("font-size", 20).attr("x", 20).attr("y", -20).html("Sentiment vs Time (red=neutral, blue=pos, green=neg)");
 
-    senti_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","senti_pos_pho").attr("font-size", 15).attr("x", width + 10).attr("y", height/2 - 20);
+    senti_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","senti_pos_pho").attr("font-size", 15).attr("x", 200).attr("y", height + 40);
 
-    senti_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","senti_neg_pho").attr("font-size", 15).attr("x", width + 10).attr("y", height/2);
+    senti_plot_svg.append("g").append("text").attr("text-anchor", "center").attr("alignment-baseline", "middle").attr("id","senti_neg_pho").attr("font-size", 15).attr("x", 200).attr("y", height + 60);
 
     senti_plot_x = d3.scaleLinear().domain([1948, 2018]).range([0, width]);
     var xAxis = d3.axisBottom(senti_plot_x).tickFormat(d3.format("d"));
