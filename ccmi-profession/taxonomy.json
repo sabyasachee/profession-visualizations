@@ -1,0 +1,5412 @@
+{
+  "name": "SOC",
+  "children": [
+    {
+      "name": "Management",
+      "children": [
+        {
+          "name": "administrator.n.01",
+          "children": [
+            {
+              "name": "administrator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "administrator.n.02",
+          "children": [
+            {
+              "name": "administrator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "administrator.n.03",
+          "children": [
+            {
+              "name": "administrator",
+              "value": 1
+            },
+            {
+              "name": "executive",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "admiral.n.01",
+          "children": [
+            {
+              "name": "admiral",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "alderman.n.01",
+          "children": [
+            {
+              "name": "alderman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "ambassador.n.01",
+          "children": [
+            {
+              "name": "ambassador",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bank_manager.n.01",
+          "children": [
+            {
+              "name": "bank manager",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "brewer.n.02",
+          "children": [
+            {
+              "name": "brewer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chamberlain.n.02",
+          "children": [
+            {
+              "name": "chamberlain",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chancellor.n.02",
+          "children": [
+            {
+              "name": "chancellor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chancellor.n.03",
+          "children": [
+            {
+              "name": "chancellor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chancellor_of_the_exchequer.n.01",
+          "children": [
+            {
+              "name": "chancellor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chief_executive_officer.n.01",
+          "children": [
+            {
+              "name": "ceo",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commander.n.02",
+          "children": [
+            {
+              "name": "commander",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commissioner.n.01",
+          "children": [
+            {
+              "name": "commissioner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commissioner.n.02",
+          "children": [
+            {
+              "name": "commissioner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "congressman.n.01",
+          "children": [
+            {
+              "name": "congressman",
+              "value": 1
+            },
+            {
+              "name": "congresswoman",
+              "value": 1
+            },
+            {
+              "name": "representative",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "council_member.n.01",
+          "children": [
+            {
+              "name": "councillor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "councilman.n.01",
+          "children": [
+            {
+              "name": "councilman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dean.n.01",
+          "children": [
+            {
+              "name": "dean",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "deputy.n.03",
+          "children": [
+            {
+              "name": "deputy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "director.n.01",
+          "children": [
+            {
+              "name": "director",
+              "value": 1
+            },
+            {
+              "name": "manager",
+              "value": 1
+            },
+            {
+              "name": "managing director",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "director.n.02",
+          "children": [
+            {
+              "name": "director",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "director_of_central_intelligence.n.01",
+          "children": [
+            {
+              "name": "dci",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "foreign_minister.n.01",
+          "children": [
+            {
+              "name": "foreign minister",
+              "value": 1
+            },
+            {
+              "name": "secretary of state",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "general_manager.n.01",
+          "children": [
+            {
+              "name": "general manager",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "governor.n.01",
+          "children": [
+            {
+              "name": "governor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "headmaster.n.01",
+          "children": [
+            {
+              "name": "headmaster",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "headmistress.n.01",
+          "children": [
+            {
+              "name": "headmistress",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "home_secretary.n.01",
+          "children": [
+            {
+              "name": "home secretary",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "host.n.08",
+          "children": [
+            {
+              "name": "innkeeper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "hostess.n.02",
+          "children": [
+            {
+              "name": "hostess",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mayor.n.01",
+          "children": [
+            {
+              "name": "mayor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "minister.n.02",
+          "children": [
+            {
+              "name": "minister",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "minister.n.03",
+          "children": [
+            {
+              "name": "minister",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "officeholder.n.01",
+          "children": [
+            {
+              "name": "officer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "overseer.n.01",
+          "children": [
+            {
+              "name": "superintendent",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "president.n.01",
+          "children": [
+            {
+              "name": "president",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "president.n.03",
+          "children": [
+            {
+              "name": "president",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "president.n.04",
+          "children": [
+            {
+              "name": "chairman",
+              "value": 1
+            },
+            {
+              "name": "president",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "president.n.05",
+          "children": [
+            {
+              "name": "president",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "president_of_the_united_states.n.01",
+          "children": [
+            {
+              "name": "president",
+              "value": 1
+            },
+            {
+              "name": "president of the united states",
+              "value": 1
+            },
+            {
+              "name": "chief executive",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "president_of_the_united_states.n.02",
+          "children": [
+            {
+              "name": "chief executive",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "principal.n.02",
+          "children": [
+            {
+              "name": "principal",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "secretary.n.01",
+          "children": [
+            {
+              "name": "secretary",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "secretary_of_state.n.01",
+          "children": [
+            {
+              "name": "secretary of state",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "senator.n.01",
+          "children": [
+            {
+              "name": "senator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sergeant_major.n.01",
+          "children": [
+            {
+              "name": "sergeant major",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "steward.n.01",
+          "children": [
+            {
+              "name": "steward",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "treasurer.n.01",
+          "children": [
+            {
+              "name": "treasurer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "vice_president.n.01",
+          "children": [
+            {
+              "name": "vice president",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "viceroy.n.01",
+          "children": [
+            {
+              "name": "viceroy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "councillor",
+              "value": 1
+            },
+            {
+              "name": "department head",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business and Finance",
+      "children": [
+        {
+          "name": "accountant.n.01",
+          "children": [
+            {
+              "name": "accountant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "analyst.n.02",
+          "children": [
+            {
+              "name": "analyst",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "auditor.n.03",
+          "children": [
+            {
+              "name": "auditor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "contractor.n.01",
+          "children": [
+            {
+              "name": "contractor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "executive.n.01",
+          "children": [
+            {
+              "name": "executive",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "operator.n.03",
+          "children": [
+            {
+              "name": "operator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "recruiter.n.01",
+          "children": [
+            {
+              "name": "recruiter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "shop_steward.n.01",
+          "children": [
+            {
+              "name": "steward",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "wedding planner",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computer and Mathematics",
+      "children": [
+        {
+          "name": "hacker.n.03",
+          "children": [
+            {
+              "name": "hacker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mathematician.n.01",
+          "children": [
+            {
+              "name": "mathematician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "programmer.n.01",
+          "children": [
+            {
+              "name": "programmer",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Architecture and Engineering",
+      "children": [
+        {
+          "name": "architect.n.01",
+          "children": [
+            {
+              "name": "architect",
+              "value": 1
+            },
+            {
+              "name": "designer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "engineer.n.01",
+          "children": [
+            {
+              "name": "engineer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "interior_designer.n.01",
+          "children": [
+            {
+              "name": "decorator",
+              "value": 1
+            },
+            {
+              "name": "designer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "surveyor.n.01",
+          "children": [
+            {
+              "name": "surveyor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "surveyor.n.02",
+          "children": [
+            {
+              "name": "surveyor",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Life, Physical, Social Science",
+      "children": [
+        {
+          "name": "agriculturist.n.01",
+          "children": [
+            {
+              "name": "grower",
+              "value": 1
+            },
+            {
+              "name": "raiser",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "anthropologist.n.01",
+          "children": [
+            {
+              "name": "anthropologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "archeologist.n.01",
+          "children": [
+            {
+              "name": "archaeologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "astronaut.n.01",
+          "children": [
+            {
+              "name": "astronaut",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "astronomer.n.01",
+          "children": [
+            {
+              "name": "astronomer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "biologist.n.01",
+          "children": [
+            {
+              "name": "biologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chemist.n.01",
+          "children": [
+            {
+              "name": "chemist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "economist.n.01",
+          "children": [
+            {
+              "name": "economist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "geologist.n.01",
+          "children": [
+            {
+              "name": "geologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "historian.n.01",
+          "children": [
+            {
+              "name": "historian",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "physicist.n.01",
+          "children": [
+            {
+              "name": "physicist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "psychologist.n.01",
+          "children": [
+            {
+              "name": "psychologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "research_worker.n.01",
+          "children": [
+            {
+              "name": "investigator",
+              "value": 1
+            },
+            {
+              "name": "researcher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "scientist.n.01",
+          "children": [
+            {
+              "name": "scientist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "weatherman.n.01",
+          "children": [
+            {
+              "name": "weatherman",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Community & Social Service",
+      "children": [
+        {
+          "name": "archpriest.n.01",
+          "children": [
+            {
+              "name": "high priest",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bishop.n.01",
+          "children": [
+            {
+              "name": "bishop",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chaplain.n.01",
+          "children": [
+            {
+              "name": "chaplain",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "clergyman.n.01",
+          "children": [
+            {
+              "name": "clergyman",
+              "value": 1
+            },
+            {
+              "name": "reverend",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cleric.n.01",
+          "children": [
+            {
+              "name": "cleric",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "confessor.n.01",
+          "children": [
+            {
+              "name": "confessor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "counselor.n.01",
+          "children": [
+            {
+              "name": "counsellor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "counselor.n.02",
+          "children": [
+            {
+              "name": "counsellor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "curate.n.01",
+          "children": [
+            {
+              "name": "minister",
+              "value": 1
+            },
+            {
+              "name": "parson",
+              "value": 1
+            },
+            {
+              "name": "pastor",
+              "value": 1
+            },
+            {
+              "name": "rector",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "deacon.n.01",
+          "children": [
+            {
+              "name": "deacon",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "deacon.n.02",
+          "children": [
+            {
+              "name": "deacon",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dean.n.04",
+          "children": [
+            {
+              "name": "dean",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "druid.n.01",
+          "children": [
+            {
+              "name": "druid",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "exorcist.n.01",
+          "children": [
+            {
+              "name": "exorcist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "exorcist.n.02",
+          "children": [
+            {
+              "name": "exorcist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "father.n.03",
+          "children": [
+            {
+              "name": "padre",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "general.n.02",
+          "children": [
+            {
+              "name": "general",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "high_priest.n.01",
+          "children": [
+            {
+              "name": "high priest",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "imam.n.01",
+          "children": [
+            {
+              "name": "imam",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lama.n.01",
+          "children": [
+            {
+              "name": "lama",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "military_chaplain.n.01",
+          "children": [
+            {
+              "name": "padre",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "missionary.n.01",
+          "children": [
+            {
+              "name": "missionary",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "missionary.n.02",
+          "children": [
+            {
+              "name": "missionary",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "monk.n.01",
+          "children": [
+            {
+              "name": "monk",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "monsignor.n.01",
+          "children": [
+            {
+              "name": "monsignor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "nun.n.01",
+          "children": [
+            {
+              "name": "nun",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "preacher.n.01",
+          "children": [
+            {
+              "name": "preacher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "priest.n.01",
+          "children": [
+            {
+              "name": "priest",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "priest.n.02",
+          "children": [
+            {
+              "name": "priest",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "priestess.n.01",
+          "children": [
+            {
+              "name": "priestess",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "prior.n.01",
+          "children": [
+            {
+              "name": "prior",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "probation_officer.n.01",
+          "children": [
+            {
+              "name": "probation officer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "rabbi.n.01",
+          "children": [
+            {
+              "name": "rabbi",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "shaman.n.01",
+          "children": [
+            {
+              "name": "shaman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "shepherd.n.01",
+          "children": [
+            {
+              "name": "shepherd",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "social_worker.n.01",
+          "children": [
+            {
+              "name": "social worker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "vicar.n.01",
+          "children": [
+            {
+              "name": "vicar",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "vicar.n.02",
+          "children": [
+            {
+              "name": "vicar",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "vicar.n.03",
+          "children": [
+            {
+              "name": "vicar",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "guidance counselor",
+              "value": 1
+            },
+            {
+              "name": "parole officer",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legal",
+      "children": [
+        {
+          "name": "advocate.n.02",
+          "children": [
+            {
+              "name": "counsel",
+              "value": 1
+            },
+            {
+              "name": "counsellor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "attorney_general.n.01",
+          "children": [
+            {
+              "name": "attorney general",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "attorney_general.n.02",
+          "children": [
+            {
+              "name": "attorney general",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "barrister.n.01",
+          "children": [
+            {
+              "name": "barrister",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "defense_attorney.n.01",
+          "children": [
+            {
+              "name": "defense attorney",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "district_attorney.n.01",
+          "children": [
+            {
+              "name": "district attorney",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "executive.n.02",
+          "children": [
+            {
+              "name": "executive",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "foreman.n.02",
+          "children": [
+            {
+              "name": "foreman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "judge.n.01",
+          "children": [
+            {
+              "name": "judge",
+              "value": 1
+            },
+            {
+              "name": "justice",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lawyer.n.01",
+          "children": [
+            {
+              "name": "attorney",
+              "value": 1
+            },
+            {
+              "name": "lawyer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "magistrate.n.01",
+          "children": [
+            {
+              "name": "magistrate",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "paralegal.n.01",
+          "children": [
+            {
+              "name": "paralegal",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "prosecutor.n.01",
+          "children": [
+            {
+              "name": "prosecutor",
+              "value": 1
+            },
+            {
+              "name": "public prosecutor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "public_defender.n.01",
+          "children": [
+            {
+              "name": "public defender",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "referee.n.03",
+          "children": [
+            {
+              "name": "referee",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "reviewer.n.01",
+          "children": [
+            {
+              "name": "referee",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "serjeant-at-law.n.01",
+          "children": [
+            {
+              "name": "sergeant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "solicitor.n.02",
+          "children": [
+            {
+              "name": "solicitor",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education & Library",
+      "children": [
+        {
+          "name": "coach.n.02",
+          "children": [
+            {
+              "name": "coach",
+              "value": 1
+            },
+            {
+              "name": "tutor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "curator.n.01",
+          "children": [
+            {
+              "name": "curator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "doctor.n.04",
+          "children": [
+            {
+              "name": "doctor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "educator.n.01",
+          "children": [
+            {
+              "name": "educator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "english_teacher.n.01",
+          "children": [
+            {
+              "name": "english teacher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lector.n.02",
+          "children": [
+            {
+              "name": "lecturer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lecturer.n.02",
+          "children": [
+            {
+              "name": "lecturer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "librarian.n.01",
+          "children": [
+            {
+              "name": "librarian",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "music_teacher.n.01",
+          "children": [
+            {
+              "name": "music teacher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "proctor.n.01",
+          "children": [
+            {
+              "name": "proctor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "professor.n.01",
+          "children": [
+            {
+              "name": "professor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "schoolmarm.n.01",
+          "children": [
+            {
+              "name": "mistress",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "schoolteacher.n.01",
+          "children": [
+            {
+              "name": "school teacher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "teacher.n.01",
+          "children": [
+            {
+              "name": "instructor",
+              "value": 1
+            },
+            {
+              "name": "teacher",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arts, Design, Entertainment, Sports, & Media",
+      "children": [
+        {
+          "name": "acrobat.n.01",
+          "children": [
+            {
+              "name": "acrobat",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "actor.n.01",
+          "children": [
+            {
+              "name": "actor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "actor.n.02",
+          "children": [
+            {
+              "name": "actor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "actress.n.01",
+          "children": [
+            {
+              "name": "actress",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "animator.n.02",
+          "children": [
+            {
+              "name": "animator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "announcer.n.01",
+          "children": [
+            {
+              "name": "announcer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "announcer.n.02",
+          "children": [
+            {
+              "name": "announcer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "artist's_model.n.01",
+          "children": [
+            {
+              "name": "sitter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "artist.n.01",
+          "children": [
+            {
+              "name": "artist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "ball_carrier.n.01",
+          "children": [
+            {
+              "name": "runner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "ballerina.n.01",
+          "children": [
+            {
+              "name": "ballerina",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "ballplayer.n.01",
+          "children": [
+            {
+              "name": "baseball player",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "banker.n.02",
+          "children": [
+            {
+              "name": "banker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bard.n.01",
+          "children": [
+            {
+              "name": "bard",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "base_runner.n.01",
+          "children": [
+            {
+              "name": "runner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "basketball_player.n.01",
+          "children": [
+            {
+              "name": "basketball player",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bowler.n.01",
+          "children": [
+            {
+              "name": "bowler",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bowler.n.02",
+          "children": [
+            {
+              "name": "bowler",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "boxer.n.01",
+          "children": [
+            {
+              "name": "boxer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cameraman.n.01",
+          "children": [
+            {
+              "name": "cameraman",
+              "value": 1
+            },
+            {
+              "name": "cinematographer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "choreographer.n.01",
+          "children": [
+            {
+              "name": "choreographer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chorus_girl.n.01",
+          "children": [
+            {
+              "name": "showgirl",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "coach.n.01",
+          "children": [
+            {
+              "name": "coach",
+              "value": 1
+            },
+            {
+              "name": "manager",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "columnist.n.01",
+          "children": [
+            {
+              "name": "columnist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "comedian.n.01",
+          "children": [
+            {
+              "name": "comedian",
+              "value": 1
+            },
+            {
+              "name": "comic",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "comedian.n.02",
+          "children": [
+            {
+              "name": "comedian",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commentator.n.02",
+          "children": [
+            {
+              "name": "commentator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "composer.n.01",
+          "children": [
+            {
+              "name": "composer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "conductor.n.01",
+          "children": [
+            {
+              "name": "conductor",
+              "value": 1
+            },
+            {
+              "name": "director",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "contractor.n.02",
+          "children": [
+            {
+              "name": "contractor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "correspondent.n.02",
+          "children": [
+            {
+              "name": "correspondent",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "couturier.n.01",
+          "children": [
+            {
+              "name": "designer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cowboy.n.02",
+          "children": [
+            {
+              "name": "cowboy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "critic.n.01",
+          "children": [
+            {
+              "name": "critic",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dancer.n.01",
+          "children": [
+            {
+              "name": "dancer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dancer.n.02",
+          "children": [
+            {
+              "name": "dancer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dealer.n.05",
+          "children": [
+            {
+              "name": "dealer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "decorator.n.02",
+          "children": [
+            {
+              "name": "decorator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "director.n.03",
+          "children": [
+            {
+              "name": "director",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "disk_jockey.n.01",
+          "children": [
+            {
+              "name": "dj",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dramatist.n.01",
+          "children": [
+            {
+              "name": "playwright",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "driver.n.03",
+          "children": [
+            {
+              "name": "driver",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "drummer.n.01",
+          "children": [
+            {
+              "name": "drummer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "editor.n.01",
+          "children": [
+            {
+              "name": "editor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "film_director.n.01",
+          "children": [
+            {
+              "name": "director",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "film_maker.n.01",
+          "children": [
+            {
+              "name": "filmmaker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "film_star.n.01",
+          "children": [
+            {
+              "name": "film star",
+              "value": 1
+            },
+            {
+              "name": "movie star",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "florist.n.01",
+          "children": [
+            {
+              "name": "florist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "folk_singer.n.01",
+          "children": [
+            {
+              "name": "minstrel",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "football_player.n.01",
+          "children": [
+            {
+              "name": "football player",
+              "value": 1
+            },
+            {
+              "name": "footballer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "fortuneteller.n.01",
+          "children": [
+            {
+              "name": "fortune teller",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "golfer.n.01",
+          "children": [
+            {
+              "name": "golfer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "graphic_designer.n.01",
+          "children": [
+            {
+              "name": "designer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "guard.n.02",
+          "children": [
+            {
+              "name": "guard",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "guard.n.05",
+          "children": [
+            {
+              "name": "guard",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "guitarist.n.01",
+          "children": [
+            {
+              "name": "guitar player",
+              "value": 1
+            },
+            {
+              "name": "guitarist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "gymnast.n.01",
+          "children": [
+            {
+              "name": "gymnast",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "harpist.n.01",
+          "children": [
+            {
+              "name": "harper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "hockey_player.n.01",
+          "children": [
+            {
+              "name": "hockey player",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "interpreter.n.01",
+          "children": [
+            {
+              "name": "interpreter",
+              "value": 1
+            },
+            {
+              "name": "translator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "jester.n.01",
+          "children": [
+            {
+              "name": "jester",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "jockey.n.01",
+          "children": [
+            {
+              "name": "jockey",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "journalist.n.01",
+          "children": [
+            {
+              "name": "journalist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lobbyist.n.01",
+          "children": [
+            {
+              "name": "lobbyist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "magician.n.01",
+          "children": [
+            {
+              "name": "magician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mannequin.n.01",
+          "children": [
+            {
+              "name": "mannequin",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "minstrel.n.02",
+          "children": [
+            {
+              "name": "minstrel",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "musician.n.01",
+          "children": [
+            {
+              "name": "musician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "musician.n.02",
+          "children": [
+            {
+              "name": "musician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "novelist.n.01",
+          "children": [
+            {
+              "name": "novelist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "observer.n.02",
+          "children": [
+            {
+              "name": "commentator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "painter.n.01",
+          "children": [
+            {
+              "name": "painter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "photographer.n.01",
+          "children": [
+            {
+              "name": "photographer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "pianist.n.01",
+          "children": [
+            {
+              "name": "pianist",
+              "value": 1
+            },
+            {
+              "name": "piano player",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "piper.n.01",
+          "children": [
+            {
+              "name": "piper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "pitcher.n.01",
+          "children": [
+            {
+              "name": "pitcher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "poet.n.01",
+          "children": [
+            {
+              "name": "poet",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "potter.n.01",
+          "children": [
+            {
+              "name": "potter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "producer.n.02",
+          "children": [
+            {
+              "name": "producer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "publicist.n.01",
+          "children": [
+            {
+              "name": "publicist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "publisher.n.02",
+          "children": [
+            {
+              "name": "publisher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "publisher.n.03",
+          "children": [
+            {
+              "name": "publisher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "puppeteer.n.01",
+          "children": [
+            {
+              "name": "puppeteer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "raiser.n.01",
+          "children": [
+            {
+              "name": "raiser",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "rapper.n.01",
+          "children": [
+            {
+              "name": "rapper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "referee.n.01",
+          "children": [
+            {
+              "name": "referee",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "reliever.n.03",
+          "children": [
+            {
+              "name": "fireman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "reporter.n.01",
+          "children": [
+            {
+              "name": "reporter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "rock_star.n.01",
+          "children": [
+            {
+              "name": "rock star",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "rocker.n.02",
+          "children": [
+            {
+              "name": "rocker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "runner.n.06",
+          "children": [
+            {
+              "name": "runner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "scout.n.03",
+          "children": [
+            {
+              "name": "scout",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "scribe.n.02",
+          "children": [
+            {
+              "name": "scribe",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sculptor.n.01",
+          "children": [
+            {
+              "name": "sculptor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "singer.n.01",
+          "children": [
+            {
+              "name": "singer",
+              "value": 1
+            },
+            {
+              "name": "vocalist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "skater.n.01",
+          "children": [
+            {
+              "name": "skater",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "skier.n.01",
+          "children": [
+            {
+              "name": "skier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "soccer_player.n.01",
+          "children": [
+            {
+              "name": "soccer player",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "songwriter.n.01",
+          "children": [
+            {
+              "name": "songwriter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "soprano.n.01",
+          "children": [
+            {
+              "name": "soprano",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sorcerer.n.01",
+          "children": [
+            {
+              "name": "magician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "star.n.04",
+          "children": [
+            {
+              "name": "principal",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "starter.n.03",
+          "children": [
+            {
+              "name": "dispatcher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stripper.n.03",
+          "children": [
+            {
+              "name": "stripper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "supermodel.n.01",
+          "children": [
+            {
+              "name": "supermodel",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "surfer.n.01",
+          "children": [
+            {
+              "name": "surfer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "swimmer.n.01",
+          "children": [
+            {
+              "name": "swimmer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "translator.n.01",
+          "children": [
+            {
+              "name": "translator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "understudy.n.01",
+          "children": [
+            {
+              "name": "understudy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "ventriloquist.n.01",
+          "children": [
+            {
+              "name": "ventriloquist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "violinist.n.01",
+          "children": [
+            {
+              "name": "fiddler",
+              "value": 1
+            },
+            {
+              "name": "violinist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "wrestler.n.01",
+          "children": [
+            {
+              "name": "wrestler",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "writer.n.01",
+          "children": [
+            {
+              "name": "author",
+              "value": 1
+            },
+            {
+              "name": "writer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "bass player",
+              "value": 1
+            },
+            {
+              "name": "dj",
+              "value": 1
+            },
+            {
+              "name": "film director",
+              "value": 1
+            },
+            {
+              "name": "porn star",
+              "value": 1
+            },
+            {
+              "name": "production designer",
+              "value": 1
+            },
+            {
+              "name": "sketch artist",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "children": [
+        {
+          "name": "analyst.n.03",
+          "children": [
+            {
+              "name": "analyst",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "baby_doctor.n.01",
+          "children": [
+            {
+              "name": "pediatrician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cardiologist.n.01",
+          "children": [
+            {
+              "name": "cardiologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chiropractor.n.01",
+          "children": [
+            {
+              "name": "chiropractor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cosmetic_surgeon.n.01",
+          "children": [
+            {
+              "name": "plastic surgeon",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dentist.n.01",
+          "children": [
+            {
+              "name": "dentist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "diagnostician.n.01",
+          "children": [
+            {
+              "name": "pathologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "doctor.n.01",
+          "children": [
+            {
+              "name": "doctor",
+              "value": 1
+            },
+            {
+              "name": "md",
+              "value": 1
+            },
+            {
+              "name": "physician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "doctor_of_the_church.n.01",
+          "children": [
+            {
+              "name": "doctor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "general_practitioner.n.01",
+          "children": [
+            {
+              "name": "gp",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "gynecologist.n.01",
+          "children": [
+            {
+              "name": "gynecologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "midwife.n.01",
+          "children": [
+            {
+              "name": "midwife",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "neurologist.n.01",
+          "children": [
+            {
+              "name": "neurologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "neurosurgeon.n.01",
+          "children": [
+            {
+              "name": "neurosurgeon",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "nurse.n.01",
+          "children": [
+            {
+              "name": "nurse",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "oncologist.n.01",
+          "children": [
+            {
+              "name": "oncologist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "paramedic.n.01",
+          "children": [
+            {
+              "name": "paramedic",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "pharmacist.n.01",
+          "children": [
+            {
+              "name": "chemist",
+              "value": 1
+            },
+            {
+              "name": "pharmacist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "psychiatrist.n.01",
+          "children": [
+            {
+              "name": "psychiatrist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "surgeon.n.01",
+          "children": [
+            {
+              "name": "surgeon",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "therapist.n.01",
+          "children": [
+            {
+              "name": "therapist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "veterinarian.n.01",
+          "children": [
+            {
+              "name": "veterinarian",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "witch_doctor.n.01",
+          "children": [
+            {
+              "name": "witch doctor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "medical officer",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Healthcare Support",
+      "children": [
+        {
+          "name": "masseur.n.01",
+          "children": [
+            {
+              "name": "masseur",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "masseuse.n.01",
+          "children": [
+            {
+              "name": "masseuse",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protective Service",
+      "children": [
+        {
+          "name": "bailiff.n.01",
+          "children": [
+            {
+              "name": "bailiff",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bobby.n.01",
+          "children": [
+            {
+              "name": "bobby",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bodyguard.n.01",
+          "children": [
+            {
+              "name": "bodyguard",
+              "value": 1
+            },
+            {
+              "name": "escort",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bodyguard.n.02",
+          "children": [
+            {
+              "name": "bodyguard",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bouncer.n.01",
+          "children": [
+            {
+              "name": "bouncer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bull.n.05",
+          "children": [
+            {
+              "name": "cop",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "captain.n.01",
+          "children": [
+            {
+              "name": "captain",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "captain.n.03",
+          "children": [
+            {
+              "name": "captain",
+              "value": 1
+            },
+            {
+              "name": "police chief",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chief_constable.n.01",
+          "children": [
+            {
+              "name": "chief constable",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commando.n.01",
+          "children": [
+            {
+              "name": "ranger",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "constable.n.01",
+          "children": [
+            {
+              "name": "constable",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "constable.n.03",
+          "children": [
+            {
+              "name": "constable",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "coroner.n.01",
+          "children": [
+            {
+              "name": "coroner",
+              "value": 1
+            },
+            {
+              "name": "medical examiner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "deputy.n.01",
+          "children": [
+            {
+              "name": "deputy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "deputy.n.02",
+          "children": [
+            {
+              "name": "lieutenant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "detective.n.01",
+          "children": [
+            {
+              "name": "detective",
+              "value": 1
+            },
+            {
+              "name": "investigator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "detective.n.02",
+          "children": [
+            {
+              "name": "detective",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "doorkeeper.n.03",
+          "children": [
+            {
+              "name": "doorman",
+              "value": 1
+            },
+            {
+              "name": "porter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "fire_warden.n.01",
+          "children": [
+            {
+              "name": "ranger",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "fireman.n.04",
+          "children": [
+            {
+              "name": "firefighter",
+              "value": 1
+            },
+            {
+              "name": "fireman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "gendarme.n.01",
+          "children": [
+            {
+              "name": "gendarme",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "guard.n.01",
+          "children": [
+            {
+              "name": "guard",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "guard.n.06",
+          "children": [
+            {
+              "name": "guard",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "inspector.n.01",
+          "children": [
+            {
+              "name": "inspector",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lieutenant.n.01",
+          "children": [
+            {
+              "name": "lieutenant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lieutenant.n.02",
+          "children": [
+            {
+              "name": "lieutenant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lieutenant.n.04",
+          "children": [
+            {
+              "name": "lieutenant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lifeguard.n.01",
+          "children": [
+            {
+              "name": "lifeguard",
+              "value": 1
+            },
+            {
+              "name": "lifesaver",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "marshal.n.01",
+          "children": [
+            {
+              "name": "marshall",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "night_watchman.n.01",
+          "children": [
+            {
+              "name": "night watchman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "patrol.n.03",
+          "children": [
+            {
+              "name": "patrol",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "police.n.01",
+          "children": [
+            {
+              "name": "police",
+              "value": 1
+            },
+            {
+              "name": "police force",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "police_commissioner.n.01",
+          "children": [
+            {
+              "name": "police commissioner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "police_matron.n.01",
+          "children": [
+            {
+              "name": "policewoman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "police_sergeant.n.01",
+          "children": [
+            {
+              "name": "sergeant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "policeman.n.01",
+          "children": [
+            {
+              "name": "officer",
+              "value": 1
+            },
+            {
+              "name": "police officer",
+              "value": 1
+            },
+            {
+              "name": "policeman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "posse.n.01",
+          "children": [
+            {
+              "name": "posse",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "prison_guard.n.01",
+          "children": [
+            {
+              "name": "jailer",
+              "value": 1
+            },
+            {
+              "name": "prison guard",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "private_detective.n.01",
+          "children": [
+            {
+              "name": "operative",
+              "value": 1
+            },
+            {
+              "name": "private detective",
+              "value": 1
+            },
+            {
+              "name": "private eye",
+              "value": 1
+            },
+            {
+              "name": "private investigator",
+              "value": 1
+            },
+            {
+              "name": "sherlock",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "schutzstaffel.n.01",
+          "children": [
+            {
+              "name": "ss",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "secret_agent.n.01",
+          "children": [
+            {
+              "name": "operative",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "secret_police.n.01",
+          "children": [
+            {
+              "name": "secret police",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sheriff.n.01",
+          "children": [
+            {
+              "name": "sheriff",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "texas_ranger.n.01",
+          "children": [
+            {
+              "name": "ranger",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "trooper.n.02",
+          "children": [
+            {
+              "name": "trooper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "trooper.n.03",
+          "children": [
+            {
+              "name": "trooper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "warden.n.01",
+          "children": [
+            {
+              "name": "warden",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "watchman.n.01",
+          "children": [
+            {
+              "name": "security guard",
+              "value": 1
+            },
+            {
+              "name": "watcher",
+              "value": 1
+            },
+            {
+              "name": "watchman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "armed guard",
+              "value": 1
+            },
+            {
+              "name": "border patrol",
+              "value": 1
+            },
+            {
+              "name": "homicide detective",
+              "value": 1
+            },
+            {
+              "name": "security officer",
+              "value": 1
+            },
+            {
+              "name": "state trooper",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food Preparation and Serving",
+      "children": [
+        {
+          "name": "barmaid.n.01",
+          "children": [
+            {
+              "name": "barmaid",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bartender.n.01",
+          "children": [
+            {
+              "name": "barman",
+              "value": 1
+            },
+            {
+              "name": "bartender",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "brewer.n.01",
+          "children": [
+            {
+              "name": "brewer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "captain.n.07",
+          "children": [
+            {
+              "name": "captain",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chef.n.01",
+          "children": [
+            {
+              "name": "chef",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cook.n.01",
+          "children": [
+            {
+              "name": "cook",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "hostess.n.01",
+          "children": [
+            {
+              "name": "hostess",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "steward.n.02",
+          "children": [
+            {
+              "name": "steward",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "waiter.n.01",
+          "children": [
+            {
+              "name": "waiter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "waitress.n.01",
+          "children": [
+            {
+              "name": "waitress",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "masterchef",
+              "value": 1
+            },
+            {
+              "name": "up person",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Building & Maintenance",
+      "children": [
+        {
+          "name": "caretaker.n.01",
+          "children": [
+            {
+              "name": "caretaker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chamberlain.n.03",
+          "children": [
+            {
+              "name": "chamberlain",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "charwoman.n.01",
+          "children": [
+            {
+              "name": "char",
+              "value": 1
+            },
+            {
+              "name": "cleaning lady",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cleaner.n.03",
+          "children": [
+            {
+              "name": "cleaner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "construction_worker.n.01",
+          "children": [
+            {
+              "name": "construction worker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "custodian.n.01",
+          "children": [
+            {
+              "name": "custodian",
+              "value": 1
+            },
+            {
+              "name": "keeper",
+              "value": 1
+            },
+            {
+              "name": "steward",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "developer.n.01",
+          "children": [
+            {
+              "name": "developer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "exterminator.n.01",
+          "children": [
+            {
+              "name": "exterminator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "foreman.n.01",
+          "children": [
+            {
+              "name": "foreman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "gardener.n.01",
+          "children": [
+            {
+              "name": "gardener",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "gardener.n.02",
+          "children": [
+            {
+              "name": "gardener",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "janitor.n.01",
+          "children": [
+            {
+              "name": "janitor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "maid.n.01",
+          "children": [
+            {
+              "name": "housemaid",
+              "value": 1
+            },
+            {
+              "name": "maid",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "superintendent.n.02",
+          "children": [
+            {
+              "name": "superintendent",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sweeper.n.01",
+          "children": [
+            {
+              "name": "sweeper",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personal Care",
+      "children": [
+        {
+          "name": "babysitter.n.01",
+          "children": [
+            {
+              "name": "babysitter",
+              "value": 1
+            },
+            {
+              "name": "sitter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "barber.n.02",
+          "children": [
+            {
+              "name": "barber",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bookmaker.n.02",
+          "children": [
+            {
+              "name": "bookie",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "butler.n.01",
+          "children": [
+            {
+              "name": "butler",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "concierge.n.01",
+          "children": [
+            {
+              "name": "concierge",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "escort.n.03",
+          "children": [
+            {
+              "name": "escort",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "governess.n.01",
+          "children": [
+            {
+              "name": "governess",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "hairdresser.n.01",
+          "children": [
+            {
+              "name": "hairdresser",
+              "value": 1
+            },
+            {
+              "name": "stylist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mortician.n.01",
+          "children": [
+            {
+              "name": "undertaker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "nanny.n.01",
+          "children": [
+            {
+              "name": "nanny",
+              "value": 1
+            },
+            {
+              "name": "nurse",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "porter.n.01",
+          "children": [
+            {
+              "name": "porter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "porter.n.06",
+          "children": [
+            {
+              "name": "porter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "rocker.n.01",
+          "children": [
+            {
+              "name": "rocker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stylist.n.01",
+          "children": [
+            {
+              "name": "stylist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "therapist.n.01",
+          "children": [
+            {
+              "name": "healer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "tour_guide.n.01",
+          "children": [
+            {
+              "name": "tour guide",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "trainer.n.01",
+          "children": [
+            {
+              "name": "trainer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "usher.n.02",
+          "children": [
+            {
+              "name": "usher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "usher.n.03",
+          "children": [
+            {
+              "name": "usher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "valet.n.01",
+          "children": [
+            {
+              "name": "valet",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sales",
+      "children": [
+        {
+          "name": "advertiser.n.01",
+          "children": [
+            {
+              "name": "advertiser",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "agent.n.04",
+          "children": [
+            {
+              "name": "broker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "banker.n.01",
+          "children": [
+            {
+              "name": "banker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "carrier.n.08",
+          "children": [
+            {
+              "name": "carrier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cashier.n.02",
+          "children": [
+            {
+              "name": "cashier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cutler.n.01",
+          "children": [
+            {
+              "name": "cutler",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "distributor.n.01",
+          "children": [
+            {
+              "name": "distributor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "grocer.n.01",
+          "children": [
+            {
+              "name": "grocer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "hatmaker.n.01",
+          "children": [
+            {
+              "name": "hatter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "jeweler.n.02",
+          "children": [
+            {
+              "name": "jeweller",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mailman.n.01",
+          "children": [
+            {
+              "name": "carrier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "operator.n.05",
+          "children": [
+            {
+              "name": "operator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "peddler.n.01",
+          "children": [
+            {
+              "name": "peddler",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "real_estate_broker.n.01",
+          "children": [
+            {
+              "name": "estate agent",
+              "value": 1
+            },
+            {
+              "name": "real estate agent",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "realtor.n.01",
+          "children": [
+            {
+              "name": "realtor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "retailer.n.01",
+          "children": [
+            {
+              "name": "retailer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "salesclerk.n.01",
+          "children": [
+            {
+              "name": "clerk",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "salesman.n.01",
+          "children": [
+            {
+              "name": "salesman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "seller.n.01",
+          "children": [
+            {
+              "name": "vendor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "shopkeeper.n.01",
+          "children": [
+            {
+              "name": "shopkeeper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "solicitor.n.01",
+          "children": [
+            {
+              "name": "solicitor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stockbroker.n.01",
+          "children": [
+            {
+              "name": "stockbroker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "trader.n.01",
+          "children": [
+            {
+              "name": "dealer",
+              "value": 1
+            },
+            {
+              "name": "trader",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "travel_agent.n.01",
+          "children": [
+            {
+              "name": "travel agent",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office & Administrative Support",
+      "children": [
+        {
+          "name": "bookkeeper.n.01",
+          "children": [
+            {
+              "name": "bookkeeper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "caretaker.n.02",
+          "children": [
+            {
+              "name": "caretaker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "clerk.n.01",
+          "children": [
+            {
+              "name": "clerk",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "copyist.n.01",
+          "children": [
+            {
+              "name": "scribe",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dispatcher.n.02",
+          "children": [
+            {
+              "name": "dispatcher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "messenger.n.01",
+          "children": [
+            {
+              "name": "courier",
+              "value": 1
+            },
+            {
+              "name": "messenger",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "notary.n.01",
+          "children": [
+            {
+              "name": "notary",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "prefect.n.01",
+          "children": [
+            {
+              "name": "prefect",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "receptionist.n.01",
+          "children": [
+            {
+              "name": "receptionist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "registrar.n.01",
+          "children": [
+            {
+              "name": "registrar",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "registrar.n.02",
+          "children": [
+            {
+              "name": "registrar",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "registrar.n.03",
+          "children": [
+            {
+              "name": "registrar",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "secretary.n.02",
+          "children": [
+            {
+              "name": "secretary",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "spokesman.n.01",
+          "children": [
+            {
+              "name": "spokesman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "spokesperson.n.01",
+          "children": [
+            {
+              "name": "interpreter",
+              "value": 1
+            },
+            {
+              "name": "representative",
+              "value": 1
+            },
+            {
+              "name": "spokesperson",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "teller.n.02",
+          "children": [
+            {
+              "name": "teller",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "teller.n.03",
+          "children": [
+            {
+              "name": "cashier",
+              "value": 1
+            },
+            {
+              "name": "teller",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "typist.n.01",
+          "children": [
+            {
+              "name": "typist",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "personal assistant",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Farming, Fishing, Forestry",
+      "children": [
+        {
+          "name": "bounty_hunter.n.02",
+          "children": [
+            {
+              "name": "bounty hunter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "breeder.n.01",
+          "children": [
+            {
+              "name": "breeder",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cowboy.n.01",
+          "children": [
+            {
+              "name": "cowboy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "farmer.n.01",
+          "children": [
+            {
+              "name": "farmer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "fisherman.n.01",
+          "children": [
+            {
+              "name": "fisher",
+              "value": 1
+            },
+            {
+              "name": "fisherman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "hunter.n.01",
+          "children": [
+            {
+              "name": "hunter",
+              "value": 1
+            },
+            {
+              "name": "huntsman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lumberman.n.01",
+          "children": [
+            {
+              "name": "lumberjack",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sheepherder.n.01",
+          "children": [
+            {
+              "name": "shepherd",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stableman.n.01",
+          "children": [
+            {
+              "name": "groom",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "trapper.n.01",
+          "children": [
+            {
+              "name": "trapper",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Construction & Extraction",
+      "children": [
+        {
+          "name": "blaster.n.01",
+          "children": [
+            {
+              "name": "blaster",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "builder.n.03",
+          "children": [
+            {
+              "name": "builder",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "carpenter.n.01",
+          "children": [
+            {
+              "name": "carpenter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "digger.n.01",
+          "children": [
+            {
+              "name": "digger",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mason.n.04",
+          "children": [
+            {
+              "name": "mason",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "miner.n.01",
+          "children": [
+            {
+              "name": "miner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "painter.n.02",
+          "children": [
+            {
+              "name": "painter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "plumber.n.01",
+          "children": [
+            {
+              "name": "plumber",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Installation & Repair",
+      "children": [
+        {
+          "name": "automobile_mechanic.n.01",
+          "children": [
+            {
+              "name": "mechanic",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "diver.n.01",
+          "children": [
+            {
+              "name": "diver",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "electrician.n.01",
+          "children": [
+            {
+              "name": "electrician",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "locksmith.n.01",
+          "children": [
+            {
+              "name": "locksmith",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "machinist.n.01",
+          "children": [
+            {
+              "name": "mechanic",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "repairman.n.01",
+          "children": [
+            {
+              "name": "repairman",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Production",
+      "children": [
+        {
+          "name": "baker.n.01",
+          "children": [
+            {
+              "name": "baker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "baker.n.02",
+          "children": [
+            {
+              "name": "baker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "butcher.n.01",
+          "children": [
+            {
+              "name": "butcher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "butcher.n.03",
+          "children": [
+            {
+              "name": "butcher",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cleaner.n.02",
+          "children": [
+            {
+              "name": "cleaner",
+              "value": 1
+            },
+            {
+              "name": "dry cleaner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cobbler.n.01",
+          "children": [
+            {
+              "name": "cobbler",
+              "value": 1
+            },
+            {
+              "name": "shoemaker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "craftsman.n.01",
+          "children": [
+            {
+              "name": "craftsman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "craftsman.n.02",
+          "children": [
+            {
+              "name": "craftsman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "craftsman.n.03",
+          "children": [
+            {
+              "name": "artisan",
+              "value": 1
+            },
+            {
+              "name": "craftsman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cutter.n.02",
+          "children": [
+            {
+              "name": "cutter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cutter.n.03",
+          "children": [
+            {
+              "name": "cutter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "dressmaker.n.01",
+          "children": [
+            {
+              "name": "seamstress",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "iceman.n.01",
+          "children": [
+            {
+              "name": "iceman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "jewelry_maker.n.01",
+          "children": [
+            {
+              "name": "jeweller",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "manufacturer.n.02",
+          "children": [
+            {
+              "name": "manufacturer",
+              "value": 1
+            },
+            {
+              "name": "producer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "miller.n.04",
+          "children": [
+            {
+              "name": "miller",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "spotter.n.01",
+          "children": [
+            {
+              "name": "spotter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stonecutter.n.01",
+          "children": [
+            {
+              "name": "cutter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stripper.n.02",
+          "children": [
+            {
+              "name": "stripper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "tailor.n.01",
+          "children": [
+            {
+              "name": "tailor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "weaver.n.01",
+          "children": [
+            {
+              "name": "weaver",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "children": [
+        {
+          "name": "aviator.n.01",
+          "children": [
+            {
+              "name": "aviator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "bluejacket.n.01",
+          "children": [
+            {
+              "name": "sailor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "busman.n.01",
+          "children": [
+            {
+              "name": "bus driver",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "captain.n.06",
+          "children": [
+            {
+              "name": "captain",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "carrier.n.05",
+          "children": [
+            {
+              "name": "carrier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chauffeur.n.01",
+          "children": [
+            {
+              "name": "chauffeur",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "coachman.n.01",
+          "children": [
+            {
+              "name": "coachman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "conductor.n.03",
+          "children": [
+            {
+              "name": "conductor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "crewman.n.02",
+          "children": [
+            {
+              "name": "crew member",
+              "value": 1
+            },
+            {
+              "name": "crewman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "deliveryman.n.01",
+          "children": [
+            {
+              "name": "delivery boy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "driver.n.02",
+          "children": [
+            {
+              "name": "driver",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "engineer.n.02",
+          "children": [
+            {
+              "name": "engineer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "jockey.n.02",
+          "children": [
+            {
+              "name": "jockey",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mailman.n.01",
+          "children": [
+            {
+              "name": "mailman",
+              "value": 1
+            },
+            {
+              "name": "postman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "mariner.n.01",
+          "children": [
+            {
+              "name": "seaman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "master.n.07",
+          "children": [
+            {
+              "name": "captain",
+              "value": 1
+            },
+            {
+              "name": "skipper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "merchant.n.01",
+          "children": [
+            {
+              "name": "merchant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "milkman.n.01",
+          "children": [
+            {
+              "name": "milkman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "packer.n.01",
+          "children": [
+            {
+              "name": "boxer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "pilot.n.01",
+          "children": [
+            {
+              "name": "pilot",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "pilot.n.02",
+          "children": [
+            {
+              "name": "pilot",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "runner.n.03",
+          "children": [
+            {
+              "name": "runner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sailor.n.01",
+          "children": [
+            {
+              "name": "crewman",
+              "value": 1
+            },
+            {
+              "name": "sailor",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "steward.n.03",
+          "children": [
+            {
+              "name": "flight attendant",
+              "value": 1
+            },
+            {
+              "name": "steward",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stewardess.n.01",
+          "children": [
+            {
+              "name": "hostess",
+              "value": 1
+            },
+            {
+              "name": "stewardess",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "stoker.n.02",
+          "children": [
+            {
+              "name": "fireman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "teamster.n.02",
+          "children": [
+            {
+              "name": "truck driver",
+              "value": 1
+            },
+            {
+              "name": "trucker",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "wingman.n.01",
+          "children": [
+            {
+              "name": "wingman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "none",
+          "children": [
+            {
+              "name": "cab driver",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Military",
+      "children": [
+        {
+          "name": "air_force_officer.n.01",
+          "children": [
+            {
+              "name": "commander",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "artilleryman.n.01",
+          "children": [
+            {
+              "name": "gunner",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "aviator.n.01",
+          "children": [
+            {
+              "name": "airman",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cadet.n.01",
+          "children": [
+            {
+              "name": "cadet",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "captain.n.02",
+          "children": [
+            {
+              "name": "captain",
+              "value": 1
+            },
+            {
+              "name": "skipper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cavalryman.n.01",
+          "children": [
+            {
+              "name": "trooper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "cavalryman.n.02",
+          "children": [
+            {
+              "name": "trooper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "chief_of_staff.n.01",
+          "children": [
+            {
+              "name": "chief of staff",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commander.n.03",
+          "children": [
+            {
+              "name": "commander",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commander_in_chief.n.01",
+          "children": [
+            {
+              "name": "commander in chief",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commanding_officer.n.01",
+          "children": [
+            {
+              "name": "commandant",
+              "value": 1
+            },
+            {
+              "name": "commander",
+              "value": 1
+            },
+            {
+              "name": "commanding officer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "commando.n.01",
+          "children": [
+            {
+              "name": "commando",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "corporal.n.01",
+          "children": [
+            {
+              "name": "corporal",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "field_marshal.n.01",
+          "children": [
+            {
+              "name": "field marshal",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "general.n.01",
+          "children": [
+            {
+              "name": "general",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "infantryman.n.01",
+          "children": [
+            {
+              "name": "foot soldier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "lookout.n.01",
+          "children": [
+            {
+              "name": "spotter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "major.n.01",
+          "children": [
+            {
+              "name": "major",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "marine.n.01",
+          "children": [
+            {
+              "name": "marine",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "marine.n.02",
+          "children": [
+            {
+              "name": "marine",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "marshal.n.02",
+          "children": [
+            {
+              "name": "marshall",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "medical_officer.n.01",
+          "children": [
+            {
+              "name": "medic",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "military_officer.n.01",
+          "children": [
+            {
+              "name": "officer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "musketeer.n.01",
+          "children": [
+            {
+              "name": "musketeer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "navigator.n.02",
+          "children": [
+            {
+              "name": "navigator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "navy_seal.n.01",
+          "children": [
+            {
+              "name": "navy seal",
+              "value": 1
+            },
+            {
+              "name": "seal",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "officer.n.04",
+          "children": [
+            {
+              "name": "officer",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "petty_officer.n.01",
+          "children": [
+            {
+              "name": "petty officer",
+              "value": 1
+            },
+            {
+              "name": "po",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "recruiter.n.02",
+          "children": [
+            {
+              "name": "recruiter",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sailing_master.n.01",
+          "children": [
+            {
+              "name": "navigator",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sergeant.n.01",
+          "children": [
+            {
+              "name": "sergeant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "sniper.n.01",
+          "children": [
+            {
+              "name": "sniper",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "soldier.n.01",
+          "children": [
+            {
+              "name": "soldier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "spy.n.01",
+          "children": [
+            {
+              "name": "spy",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "staff_sergeant.n.01",
+          "children": [
+            {
+              "name": "staff sergeant",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
