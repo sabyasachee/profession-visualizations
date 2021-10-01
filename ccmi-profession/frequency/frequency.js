@@ -72,7 +72,6 @@ d3.csv("./frequency.csv", function(data) {
         .attr("text-anchor", "center")
         .attr("x", -g_height-5)
         .attr("y", -75)
-        // .attr("dy", ".75em")
         .attr("transform", "rotate(-90)")
         .text("Frequency of mentions in subtitles");
     
@@ -118,10 +117,10 @@ d3.csv("./frequency.csv", function(data) {
     d3.select("#selectButton")
     .on("change", function (d) {
         const profession = d3.select(this).property("value");
-        console.log(profession);
         update(profession);
     });
 
+    // call update to draw inital line plot
     update(d3.select("#selectButton").property("value"));
 })
     
