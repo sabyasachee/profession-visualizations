@@ -1,7 +1,7 @@
 // dimensions and margin of the svg
-const width = 800
+const width = 840
 const height = 400
-const margin = {left: 100, top: 50, right: 60, bottom: 100}
+const margin = {left: 100, top: 50, right: 100, bottom: 100}
 
 // dimensions of g inside svg
 const g_width = width - margin.left - margin.right;
@@ -60,15 +60,25 @@ d3.csv("./employment.csv", function(edata) {
             .attr("y", g_height + 50)
             .text("Year");
 
-        // y transform, partially defined because domain changes dynamically
-        var y = d3.scaleLinear().range([g_height, 0]);
+        // there are two y-axes: lefty and righty
+        // lefty is for media frequency, righty is for employment
+        // lefty transform, partially defined because domain changes dynamically
+        var lefty = d3.scaleLinear().range([g_height, 0]);
+        var righty = d3.scaleLinear().range([g_height, 0]);
 
-        // add y axis, note that y transform is not called
+        // add y axes, note that y transforms are not called
         svg.append("g")
             .style("font", "15px times")
-            .attr("class", "yaxis");
+            .attr("class", "yaxis")
+            .attr("id","lefty");
+        
+        svg.append("g")
+            .style("font", "15px times")
+            .attr("transform", "translate(" + g_width + ",0)")
+            .attr("class", "yaxis")
+            .attr("id","righty");
 
-        // add y label
+        // add y labels
         svg.append("g")
             .append("text")
             .attr("class", "y label")
@@ -77,42 +87,79 @@ d3.csv("./employment.csv", function(edata) {
             .attr("y", -75)
             .attr("transform", "rotate(-90)")
             .text("Frequency of mentions in subtitles");
-        
-        // add line graph
-        var plot = svg.append("g")
+
+        svg.append("g")
+            .append("text")
+            .attr("class", "y label")
+            .attr("text-anchor", "center")
+            .attr("x", -g_height+15)
+            .attr("y", g_width + 80)
+            .attr("transform", "rotate(-90)")
+            .text("Employment proportion");
+
+        // add line graphs
+        var leftyplot = svg.append("g")
                     .append("path")
-                    .attr("id","plot");
+                    .attr("id","leftyplot");
+
+        var rightyplot = svg.append("g")
+                    .append("path")
+                    .attr("id","rightyplot");
 
         // update is called when option is changed in select button
         // it draws the line graph for selected soc
         function update(selected_soc) {
 
             // find the maximum and minimum y values
-            var min_y = d3.min(mdata, function(d) {return +d[selected_soc]});
-            var max_y = d3.max(mdata, function(d) {return +d[selected_soc]});
+            var leftmin_y = d3.min(mdata, function(d) {return +d[selected_soc]});
+            var leftmax_y = d3.max(mdata, function(d) {return +d[selected_soc]});
+            var rightmin_y = d3.min(edata, function(d) {return +d[selected_soc]});
+            var rightmax_y = d3.max(edata, function(d) {return +d[selected_soc]});
 
-            // update domain of y transform
-            y.domain([min_y, max_y]);
+            // update domain of y transforms
+            lefty.domain([leftmin_y, leftmax_y]);
+            righty.domain([rightmin_y, rightmax_y]);
             
-            // update y axis
-            const y_axis = d3.axisLeft(y).tickFormat(d3.format(".2e"));
-            svg.selectAll(".yaxis")
+            // update y axes
+            const lefty_axis = d3.axisLeft(lefty).tickFormat(d3.format(".2e"));
+            const righty_axis = d3.axisRight(righty).tickFormat(d3.format(".2e"));
+            
+            svg.select("#lefty")
                 .transition()
                 .duration(1000)
-                .call(y_axis);
+                .call(lefty_axis);
+
+            svg.select("#righty")
+                .transition()
+                .duration(1000)
+                .call(righty_axis);
             
-            // plot line graph
-            plot.datum(mdata)
+            // plot line graphs
+            leftyplot.datum(mdata)
             .transition()
             .duration(1000)
             .attr(
                 "d", d3.line()
                 .x(function(d) {return x(+d.year)})
-                .y(function(d) {return y(+d[selected_soc])})
+                .y(function(d) {return lefty(+d[selected_soc])})
                 .curve(d3.curveBasis)
             )
             .attr("stroke", colors(selected_soc))
             .style("stroke-width", 3)
+            .style("fill", "none");
+
+            rightyplot.datum(edata)
+            .transition()
+            .duration(1000)
+            .attr(
+                "d", d3.line()
+                .x(function(d) {return x(+d.year)})
+                .y(function(d) {return righty(+d[selected_soc])})
+                .curve(d3.curveBasis)
+            )
+            .attr("stroke", colors(selected_soc))
+            .style("stroke-width", 3)
+            .style("stroke-dasharray", ("3, 3"))
             .style("fill", "none");
         }
         
